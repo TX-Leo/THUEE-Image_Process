@@ -1,0 +1,116 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="E:\DesktopExtend\in_class\matlab\图像处理大作业\exe\image_process_toolbox.prj" location="E:\DesktopExtend\in_class\matlab\图像处理大作业\exe" name="image_process_toolbox" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>image_process_toolbox</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>TX-Leo</param.authnamewatermark>
+    <param.email>tx.leo.wz@gmail.com</param.email>
+    <param.company>Tsinghua University</param.company>
+    <param.summary>I belong to Jesus</param.summary>
+    <param.description>It's TX-Leo's image_process_toolbox.</param.description>
+    <param.screenshot>D:\图片\Saved Pictures\logo\TX-Leo1.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Tsinghua University\image_process_toolbox\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\image_process_toolbox\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\image_process_toolbox\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\image_process_toolbox\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\image_process_toolbox</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 image_process_export -? 
+	 image_process_export varargin 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 varargin  input arguments 
+ Description 
+ 	 It's TX-Leo's image_process_toolbox.</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>E:\DesktopExtend\in_class\matlab\图像处理大作业\src\image_process_export.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>E:\DesktopExtend\in_class\matlab\图像处理大作业\src\face_recognition.m</file>
+      <file>E:\DesktopExtend\in_class\matlab\图像处理大作业\src\info_find.m</file>
+      <file>E:\DesktopExtend\in_class\matlab\图像处理大作业\src\info_hide.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>E:\DesktopExtend\in_class\matlab\图像处理大作业\src\image_process_export.mat</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\image_process_toolbox\for_testing" name="splash.png" optional="false">E:\DesktopExtend\in_class\matlab\图像处理大作业\exe\image_process_toolbox\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\image_process_toolbox\for_testing" name="image_process_toolbox.exe" optional="false">E:\DesktopExtend\in_class\matlab\图像处理大作业\exe\image_process_toolbox\for_testing\image_process_toolbox.exe</file>
+      <file location="${PROJECT_ROOT}\image_process_toolbox\for_testing" name="readme.txt" optional="true">E:\DesktopExtend\in_class\matlab\图像处理大作业\exe\image_process_toolbox\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
